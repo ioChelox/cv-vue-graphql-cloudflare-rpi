@@ -1,0 +1,105 @@
+
+
+Tue Oct 26 06:46:39 2021
+Command line: TestDisk
+
+TestDisk 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 5.4.0-72-generic (#80~18.04.1-Ubuntu SMP Mon Apr 12 23:26:25 UTC 2021) x86_64
+Compiler: GCC 7.2
+ext2fs lib: 1.44.1, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.0
+User is not root!
+Hard disk list
+Disk /dev/sr0 - 2762 KB / 2698 KiB - 1349 sectors (RO), sector size=2048 - Linux File-CD Gadget, FW:0414
+
+
+TestDisk exited normally.
+Using locale 'LC_CTYPE=en_US.UTF-8;LC_NUMERIC=es_BO.UTF-8;LC_TIME=es_BO.UTF-8;LC_COLLATE=en_US.UTF-8;LC_MONETARY=es_BO.UTF-8;LC_MESSAGES=en_US.UTF-8;LC_PAPER=es_BO.UTF-8;LC_NAME=es_BO.UTF-8;LC_ADDRESS=es_BO.UTF-8;LC_TELEPHONE=es_BO.UTF-8;LC_MEASUREMENT=es_BO.UTF-8;LC_IDENTIFICATION=es_BO.UTF-8'.
+
+
+Tue Oct 26 06:47:16 2021
+Command line: TestDisk /log /dev/sdb
+
+TestDisk 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 5.4.0-72-generic (#80~18.04.1-Ubuntu SMP Mon Apr 12 23:26:25 UTC 2021) x86_64
+Compiler: GCC 7.2
+ext2fs lib: 1.44.1, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.0
+Hard disk list
+Disk /dev/sdb - 63 GB / 59 GiB - CHS 60906 64 32, sector size=512 - Generic STORAGE DEVICE, FW:1206
+
+Partition table type default to Intel
+Disk /dev/sdb - 63 GB / 59 GiB - Generic STORAGE DEVICE
+Partition table type: Intel
+
+Analyse Disk /dev/sdb - 63 GB / 59 GiB - CHS 60906 64 32
+Current partition structure:
+
+Partition sector doesn't have the endmark 0xAA55
+
+search_part()
+Disk /dev/sdb - 63 GB / 59 GiB - CHS 60906 64 32
+     Linux                  260   0  1 60905  63 32  124203008 [rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 63 GB / 59 GiB
+get_geometry_from_list_part_aux head=64 nbr=2
+get_geometry_from_list_part_aux head=8 nbr=2
+get_geometry_from_list_part_aux head=16 nbr=2
+get_geometry_from_list_part_aux head=32 nbr=2
+get_geometry_from_list_part_aux head=64 nbr=2
+get_geometry_from_list_part_aux head=128 nbr=2
+Warning: the current number of heads per cylinder is 64 but the correct value may be 128.
+
+Directory /
+       2 drwxr-xr-x     0      0      4096  7-May-2021 11:24 .
+       2 drwxr-xr-x     0      0      4096  7-May-2021 11:24 ..
+      11 drwx------     0      0     16384  7-May-2021 11:21 lost+found
+  258561 drwxr-xr-x     0      0      4096  7-May-2021 11:21 boot
+      12 lrwxrwxrwx     0      0         7  7-May-2021 10:39 bin
+      13 lrwxrwxrwx     0      0         7  7-May-2021 10:39 lib
+      14 lrwxrwxrwx     0      0         8  7-May-2021 10:39 sbin
+  129281 drwxr-xr-x     0      0      4096  7-May-2021 10:39 dev
+  258562 drwxr-xr-x     0      0      4096  7-May-2021 11:24 etc
+  129282 drwxr-xr-x     0      0      4096  7-May-2021 10:42 home
+      15 drwxr-xr-x     0      0      4096  7-May-2021 10:39 media
+  129283 drwxr-xr-x     0      0      4096  7-May-2021 10:39 mnt
+  258563 drwxr-xr-x     0      0      4096  7-May-2021 10:56 opt
+      16 drwxr-xr-x     0      0      4096 29-Mar-2021 21:16 proc
+  258564 drwx------     0      0      4096  7-May-2021 11:24 root
+  129284 drwxr-xr-x     0      0      4096  7-May-2021 10:52 run
+  258565 drwxr-xr-x     0      0      4096  7-May-2021 10:39 srv
+      17 drwxr-xr-x     0      0      4096 29-Mar-2021 21:16 sys
+  129285 drwxrwxrwt     0      0      4096  7-May-2021 11:25 tmp
+  258566 drwxr-xr-x     0      0      4096  7-May-2021 10:48 usr
+      18 drwxr-xr-x     0      0      4096  7-May-2021 11:24 var
+X  50244 -rw-------     0      0 104857600  7-May-2021 11:24 .ismount-test-file
+
+interface_write()
+ 1 * Linux                  260   0  1 60905  63 32  124203008 [rootfs]
+simulate write!
+No extended partition
+
+Analyse Disk /dev/sdb - 63 GB / 59 GiB - CHS 60906 64 32
+Current partition structure:
+
+Partition sector doesn't have the endmark 0xAA55
+
+search_part()
+Disk /dev/sdb - 63 GB / 59 GiB - CHS 60906 64 32
+     Linux                  260   0  1 60905  63 32  124203008 [rootfs]
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 63 GB / 59 GiB
+get_geometry_from_list_part_aux head=64 nbr=2
+get_geometry_from_list_part_aux head=8 nbr=2
+get_geometry_from_list_part_aux head=16 nbr=2
+get_geometry_from_list_part_aux head=32 nbr=2
+get_geometry_from_list_part_aux head=64 nbr=2
+get_geometry_from_list_part_aux head=128 nbr=2
+Warning: the current number of heads per cylinder is 64 but the correct value may be 128.
+
+interface_write()
+ 1 * Linux                  260   0  1 60905  63 32  124203008 [rootfs]
+simulate write!
+No extended partition
+
+TestDisk exited normally.
