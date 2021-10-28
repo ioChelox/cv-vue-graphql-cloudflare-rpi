@@ -1,0 +1,145 @@
+[
+    {
+        "id": 1,
+        "fullName": "Marcelo Sanchez Salazar",
+        "degree": "Systems Engineer",
+        "bgImage": "https://flevix.com/wp-content/uploads/2019/12/Motion-Background.svg",
+        "myImage": "../assets/myImage.png",
+        "menuList": ["About Me", "Resume", "About this Page"],
+        "aboutMe": "My name is Marcelo Sanchez Salazar, I am a Freelancer. I have rich experience in web site design, building and customization.",
+        "lblAboutMe": "About Me",
+        "factsAboutMe":[
+            {"label":"Age      .", "desc":"40", "icon":"mdi-cake-variant"},
+            {"label":"Residence", "desc":"Bolivia", "icon":"mdi-home-variant"},
+            {"label":"Freelance", "desc":"Available", "icon":"mdi-clipboard-account"}
+        ],
+        "lblMyServices":"My Services",
+        "services": [
+            {
+             "titleOne":"","subTitleOne":"Vue.js","descOne":"This CV was development under Vue.js. Here is the Product","srcBgOne":"https://assets.atlanticbt.com/content/uploads/2019/12/g_feature-web-development-3.svg",
+             "titleTwo":"","subTitleTwo":"Flutter","descTwo":"Recently work with Flutter to deploy.Here is the Product","srcBgTwo":"https://aspgems.com/wp-content/uploads/2020/01/flutter-dart.png"
+            },
+            {
+             "titleOne":"","subTitleOne":"Python as Backservice","descOne":"Python as Backservice Working on multiple projects with Python, Pandas, Requests, Selenium, API, etc. Here is the Product","srcBgOne":"https://upload.wikimedia.org/wikipedia/commons/0/0a/Python.svg",
+             "titleTwo":"","subTitleTwo":"Arduino and Raspberry PI","descTwo":"Private works with Arduino, NodeMCU, Raspberry PI, GSM, CNC, Follow cars, etc. Here is the Product","srcBgTwo":"https://www.icra2019.org/sites/default/themes/icra2019/resources/img/logos/header-illustration.svg"
+            }
+        ],
+        "lblPricing":"Pricing",
+        "price": [
+            {   "label":"Basic",
+                "number":"15",
+                "lapse":"hour",
+                "desc":[
+                    "Vue Support",
+                    "Flutter Support (iOS, Android",
+                    "Python Support",
+                    "Node.js Support",
+                    "Docker Support",
+                    "PHP Support",
+                    "Arduino Support",
+                    "XCode Support",
+                    "OpenCV Support"
+                ],
+                "labelBuy":"BUY BASIC"
+            },{
+                "label":"Pro",
+                "number":"20",
+                "lapse":"hour",
+                "desc":[
+                    "Vue Development",
+                    "Flutter Development",
+                    "Python Development",
+                    "Node.js Development",
+                    "Docker Build",
+                    "PHP Development",
+                    "Arduino Development",
+                    "OpenCV Development",
+                    "BI Development",
+                    "Oracle Development"
+                ],
+                "labelBuy":"BUY PRO"
+            }
+        ],
+        "lblFunFacts":"Fun Facts",
+        "funFacts": [
+            {
+                "number":"3",
+                "desc":[
+                    "Countries",
+                    "Visited"
+                ]
+            },
+            {
+                "number":"5",
+                "desc":[
+                    "Domotics Products",
+                    "Deployed"
+                ]
+            },
+            {
+                "number":"3",
+                "desc":[
+                    "Models Printed",
+                    "On 3D Printer"
+                ]
+            },
+            {
+                "number":"3",
+                "desc":[
+                    "Country",
+                    "Visited"
+                ]
+            }
+        ],
+        "lblClients":"Clients",
+        "clients":[
+            {"client":"Goopy Inc.","srcBg":"https://goopy.io/uploads/images/goopystudio.svg"},
+            {"client":"NerdsOnSite","srcBg":"https://www.nerdsonsite.com/wp-content/uploads/2019/07/nerds-on-site-car@2x.png"},
+            {"client":"OneExtraGuy","srcBg":"https://oneextraguy.com/wp-content/uploads/2017/02/logo.jpg"},
+            {"client":"Sanchez Constructora","srcBg":"https://scontent.flpb3-1.fna.fbcdn.net/v/t31.0-8/19780733_1709960739032294_7200791828876507433_o.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_ohc=HJe8BTPRQxMAX8ZnWTE&_nc_ht=scontent.flpb3-1.fna&oh=92b0ca9b84a5cc3b5748f35a58065f93&oe=5F0C71FE"}
+        ],
+        "lblTestimonials":"Testimonials",
+        "testimonials":[
+            {"name": "Carla Castro", "testimonial":"Very Proactive!"},
+            {"name": "Vivian Montaño", "testimonial":"Beautiful designs!"},
+            {"name": "Francisco Viloria", "testimonial":"Innovative!"},
+            {"name": "Andres Eterovic", "testimonial":"Great Code!"},
+            {"name": "Silvana Lopez", "testimonial":"Impressive!"},
+            {"name": "Fernando Terrazas", "testimonial":"Out of the box!"}
+        ],
+        "lblResume":"Resume",
+        "lblExperience":"Experience",
+        "experience":[
+            {"lapse":"2017 - Present","position":"CEO","title":"'Nine Brains Corp.","desc":"Collaborate with creative and development teams on the execution of ideas."},
+            {"lapse":"2010 - 2018","position":"Developer","title":"Viva D.R.","desc":"Worked in Viva Republica Dominicana, areas Datawarehouse, DevOps, OracleSQL, PHP, PLSQL."}
+        ],
+        "lblEducation":"Education",
+        "education":[
+            {"lapse":"2010 - 2018","position":"UMSS","title":"'Engineer System","desc":"Time studying in UMSS and knowledge"},
+            {"lapse":"2010 - 2018","position":"Developer","title":"Viva D.R.","desc":"Worked in Viva Republica Dominicana, areas Datawarehouse, DevOps, OracleSQL, PHP, PLSQL."}
+        ],
+        "lblMySkills":"My Skills",
+        "lblDesign":"Design",
+        "linearSkills":[
+            {"name":  "Web Design", "percent": "80"},
+            {"name":  "Backend Services", "percent": "60"},
+            {"name":  "Flutter", "percent": "50"}
+        ],
+        "lblLanguage":"Language",
+        "languageSkills":[
+            {"language":  "English", "rating": 8},
+            {"language":  "Spanish", "rating": 10}
+        ],
+        "lblCoding":"Coding",
+        "codingSkills":[
+            {"numberOne": "65", "labelOne": "Node.js","numberTwo": "35", "labelTwo": "Python"},
+            {"numberOne": "65", "labelOne": "Vue.js", "numberTwo": "35", "labelTwo": "Flutter"}
+        ],
+        "knowledgeSkills":[
+            "Website hosting",
+            "Android and iOS apps",
+            "Arduino and Raspberry Pi Dev"
+        ],
+        "lblKnowledge":"KNOWLEDGE"
+    }
+]
